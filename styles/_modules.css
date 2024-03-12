@@ -1,0 +1,274 @@
+.pagina
+{
+    background-image: url("../assets/jpg/19_fondoNvo.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.contenedor
+{
+    max-width: 980px;
+
+    margin: 0 auto 0 auto;
+}
+.encb
+{
+    padding-bottom: 1em;
+    border-bottom: 1px solid var(--co-negro);
+    margin-bottom: 1em;
+}
+    .col-encb__img
+    {
+        width: auto;
+        height: 4.4em;
+        margin-bottom: 2em;
+    }
+    .encb__logo
+    {
+        width: 19em;
+    }
+    .col-encb__info
+    {
+        margin-top: .5em;
+        margin-bottom: .2em;
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    .col-encb__info2
+    {
+        line-height: 1.4em;
+    }
+
+.barra
+{
+    margin-right: 6em;
+}
+.barra__icono
+{
+    height: 2em;
+}
+
+
+
+
+
+
+
+
+.menu
+{
+    color: var(--color-secundario);
+    background-color: var(--co-gris);
+}
+
+    .menu__lista-elem
+    {
+        padding: .5em 1em;
+        min-height: 3.2em;
+
+        text-align: right;
+        line-height: 1em;
+        font-size: .9rem;
+
+        transition:background-color 250ms ease;
+    }
+    .menu__icono-lista
+    {
+        width: 1.8em;
+        aspect-ratio: 1/1;
+    }
+
+
+
+.menu__cont-correo
+{
+    padding: 2.5em 1.2em;
+}
+    .menu__logo-correo
+    {
+        width: 2.6em;
+        aspect-ratio: 1/1;
+    }
+    .menu__info-correo
+    {
+        padding-bottom: .7em;
+
+        font-size: .6rem;
+        font-weight: 600;
+        line-height: 1em;
+    }
+    .menu__boton-enviar
+    {
+        
+        width: 1.3em;
+        height: 1.3em;
+        padding: .05em;
+        
+        background-color: var(--co-naranja);
+        cursor: pointer;
+    }
+    .menu__correo
+    {
+        
+        width: calc(100% - 1.3em);
+        height: 1.3em;
+        background-color: var(--color-secundario);
+        color: var(--co-negro);
+    }
+
+
+
+
+
+
+
+
+
+.cont-ppal__promo,
+.cont-ppal__shopping,
+.cont-ppal__gastro,
+.cont-ppal__comunidad
+{
+    position: relative;
+}
+.etiqueta
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: .3em .6em;
+    background-color: rgba(110, 34, 82,.75);
+}
+
+    .etiqueta__texto
+    {
+        
+        text-transform: uppercase;
+        color: var(--color-secundario);
+        font-weight: 600;
+    }
+    .etiqueta__img
+    {
+        width: 1.7em;
+        opacity: .5;
+    }
+/* .carrusel
+{
+    border: 1px solid red;
+} */
+    /* .carrusel__cont
+    {
+      
+
+    }
+    .carrusel__foto
+    {
+        
+    } */
+    .carrusel__carta
+    {
+        position: relative;
+    }
+    .carrusel__btn-svg
+    {
+        transform: scaleX(-1);
+    }
+    .carrusel__btn
+    {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+
+        width: 2rem;
+        border-radius: 50%;
+        padding:.3em;
+
+        background-color: rgba(255, 255, 255, 0.6);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+.pie-pag
+{
+    padding: 2em 0 0 0;
+    border-top: 1px solid var(--co-gris);
+}
+    .pie-pag__cont
+    {
+        padding: 1em 2em 1em 0;
+        border-right:1px solid var(--co-gris);
+    }
+    .pie-pag__img
+    {
+        width: 13rem;
+    }
+    .pie-pag__cont-info
+    {
+        width: 15em;
+    }
+    .pie-pag__titulo
+    {
+        margin-bottom: .35em;
+
+        font-size: 1.6rem;
+        color: var(--co-naranja-claro);
+    }
+    .pie-pag__direccion
+    {
+        width: 100%;
+        margin-bottom: 1.2em;
+        padding: 0 1em;
+        
+        background-color: var(--co-naranja-claro);
+        color: var(--color-secundario);
+        line-height: 1.5;
+        text-align: center;
+    }
+    .pie-pag__ubicacion
+    {
+        margin-bottom: .5em;
+
+        font-size: .8rem;
+        font-style: normal;
+
+        line-height: 1em;
+    }
+    .pie-pag__copyrigth
+    {
+        font-size: .7rem;
+        font-style: italic;
+        line-height: 1.5;
+    }
+    .pie-pag__cont2
+    {
+        padding: 1em 3em 1em 1em;
+    }
+        .pie-pag__img2
+        {
+            width: auto;
+            height: 3em;
+        }
+        .pie-pag__titulo2
+        {
+            font-weight: 600;
+        }
+        .pie-pag__texto
+        {
+            font-size: .9em;
+            text-align: end;
+        }
+        .pie-pag__cont3:not(:last-child)
+        {
+            margin-bottom: .5em;
+        }
+    

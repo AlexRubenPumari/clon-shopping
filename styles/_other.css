@@ -1,0 +1,68 @@
+.menu__lista-elem--home:hover
+{
+    background-color:var(--co-naranja);
+}
+.menu__lista-elem--shopping:hover
+{
+    background-color:var(--co-lila);
+}
+.menu__lista-elem--marca:hover
+{
+    background-color:var(--co-celeste);
+}
+
+
+.menu__lista-elem--comida:hover
+{
+    background-color:var(--co-verde-oscuro);
+}
+.menu__lista-elem--promo:hover
+{
+    background-color:var(--co-mostaza);
+}
+.menu__lista-elem--comunidad:hover
+{
+    background-color:var(--co-azul);
+}
+.menu__lista-elem--msj:hover
+{
+    background-color:var(--co-verde-claro);
+}
+
+
+
+.pie-pag__titulo2--grande
+{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+.pie-pag__cont3--reverso
+{
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    gap: 5.4em;
+}
+
+
+.carrusel__btn--sig
+{
+    right: .8em;
+}
+.carrusel__btn--ant
+{
+    left: .8em;
+}
+
+.etiqueta--promo
+{
+    background-color: rgba(237, 167, 22, .75);
+}
+.etiqueta--gastro
+{
+    background-color: rgba(0, 112, 50,0.75);
+}
+.etiqueta--com
+{
+    background-color: rgba(155, 0, 98, 0.75);
+}
