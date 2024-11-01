@@ -81,8 +81,21 @@
     }
     .cont-ppal{
         grid-area: cont-ppal;
-        padding: 0 1.1rem;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 0 1rem;
+        grid-gap: .2rem;
     }
+    .cont-ppal__promo-img{
+        mask-image: linear-gradient(#fff 80%, transparent);
+    }
+    .etiqueta__img{
+        display: none;
+    }
+    .etiqueta__texto{
+        font-size: .85rem;
+    }
+
+
     .pie-pag{
         flex-wrap: wrap;
     }
