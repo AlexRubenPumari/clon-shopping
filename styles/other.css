@@ -33,7 +33,6 @@
 
 .pie-pag__titulo2--grande
 {
-    text-transform: uppercase;
     font-size: 1.2rem;
 }
 
@@ -65,4 +64,48 @@
 .etiqueta--com
 {
     background-color: rgba(155, 0, 98, 0.75);
+}
+
+/* Media querys */
+/* para pantallas de hasta un maximo de 1035px, es decir, todas aquellas pantallas menores de 1035px */
+@media (max-width:1035px){
+    .cont-aparte{
+        /* ocultar la sección secundaria */
+        display: none;
+    }
+    /* .plantilla-grid .contenedor tocar estas dos clases */
+    .plantilla-grid{
+        grid-template-areas:'encabezado encabezado'
+                            'cont-ppal cont-ppal'
+                            'pie-pag pie-pag';
+    }
+    .cont-ppal{
+        grid-area: cont-ppal;
+        padding: 0 1.1rem;
+    }
+    .pie-pag{
+        flex-wrap: wrap;
+    }
+    .pie-pag__cont{
+        border-right: none;
+        padding: 0;
+        flex-basis: 90%;
+
+        justify-content: center;
+    }
+    .pie-pag__cont2{
+        flex-basis: 90%;
+        padding: 0;
+    }
+    .encb{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem .5rem;
+    }
+    .pie-pag__cont3--reverso{
+        justify-content: center;
+    }
+    .pie-pag__cont3 .pie-pag__texto{
+        text-align: left;
+    }
 }
