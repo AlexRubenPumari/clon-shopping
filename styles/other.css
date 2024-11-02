@@ -121,4 +121,7 @@
     .pie-pag__cont3 .pie-pag__texto{
         text-align: left;
     }
+    .btn-nav{
+        display: block;
+    }
 }
